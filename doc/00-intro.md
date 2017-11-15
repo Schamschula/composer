@@ -97,7 +97,7 @@ mv composer.phar /usr/local/bin/composer
 > **Note:** If the above fails due to permissions, you may need to run it again
 > with sudo.
 
-> **Note:** On some versions of OSX the `/usr` directory does not exist by
+> **Note:** On macOS the `/usr/local/bin` directory does not exist by
 > default. If you receive the error "/usr/local/bin/composer: No such file or
 > directory" then you must create the directory manually before proceeding:
 > `mkdir -p /usr/local/bin`.
